@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #2f2f3a;
+  padding: 15px 0;
+  flex-wrap: wrap;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ffcc00;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.navbar a.active {
+  color: #ffcc00;
+  font-weight: bold;
+  text-decoration: underline;
+}
